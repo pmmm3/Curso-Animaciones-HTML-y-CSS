@@ -1,0 +1,128 @@
+/* .animacion
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+    border-radius: 50%;
+
+    animation-name: cuadrado;
+    animation-duration: 4s;
+}
+@keyframes cuadrado {
+    from {
+        background-color: blue;
+
+    }
+
+    to {
+        background-color: greenyellow;
+    }
+} */
+
+
+/* Ejercicio  */
+/* Rectangulo con animacion que cambide de color de verde a rojo durante 10 secs*/
+/* .RECTANGULO {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    animation-name: RECTANGULO;
+    animation-duration: 10s;
+}
+@keyframes RECTANGULO {
+    from {
+        background-color: green;
+
+    }
+
+    to {
+        background-color: red;
+    }
+}
+
+.animacion2 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+
+    animation-name: changeColor;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+}
+@keyframes changeColor {
+    from{
+        top: 0px;
+
+    }
+    to
+    {
+        top: 200px;
+    }
+} */
+/* Ejercicio  */
+/* Circulo que tenga el color inicial en rojo y se desplaze hacia la derecha 300px y cambiar a un color azul
+
+*/
+/* .movDerecha{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+
+    animation-name: movDerecha;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+@keyframes movDerecha {
+    from{
+        left: 0px;
+
+    }
+    to
+    {
+        background-color: blue;
+        left: 300px;
+    }
+} */
+/* Ejercicio  */
+/* cuadrado de 300px que se mueva de arriba - abajop, abajo derecha, derecha hacia arriba y arriba hacia la izquierda
+*/
+.circuito2 {
+    width: 300px;
+    height: 300px;
+    background-color: goldenrod;
+    position: relative;
+
+    animation-name: circuito;
+    animation-fill-mode: forwards;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /* animation-direction: reverse; */
+}
+@keyframes circuito {
+    from{
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top: 300px;
+        left: 0;
+    }
+    50%{
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        top: 0px;
+        left: 300px;
+    }
+    to
+    {
+        top: 0px;
+        left: 0px;
+    }
+}
